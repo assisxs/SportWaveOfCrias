@@ -1,0 +1,9 @@
+<% if (typeof products !=="undefined" ) { %>
+    <div class="product-grid">
+        <% products.forEach((product)=> { %>
+            <%- include('product', { product: product }) %>
+                <% }) %>
+    </div>
+    <% } else { %>
+        <p>Nenhum produto disponível.</p>
+        <% } %>

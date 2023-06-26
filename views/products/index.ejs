@@ -1,10 +1,6 @@
-<h1>INDEX</h1>
+<%- include('../partials/carrosel') %>
 
-<% if (typeof products !== "undefined") { %>
-    <% products.forEach((product) => { %>
-        <%- include('../partials/products/product', { product: product }) %>
-        <hr>
-    <% }) %>
-<% } else { %>
-    <p>Nenhum produto disponível.</p>
-<% } %>
+<%- include('../partials/subtitulo') %>
+
+<%- include('../partials/products/products', { products: products }) %>
+
