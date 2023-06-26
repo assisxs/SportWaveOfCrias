@@ -10,7 +10,7 @@ const categories = {
 
 const sports = {
   surf: "Surf",
-  "volei-de-praia": "Volei de Praia",
+  "volei-de-praia": "Vôlei de Praia",
   "beach-tennis": "Beach Tennis",
 };
 

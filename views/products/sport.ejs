@@ -1,3 +1,7 @@
-<h1><%= title %></h1>
+<div class="banner">
+    <img src="/img/<%= title %>.png" alt="">
+</div>
+
+<%- include('../partials/subtitulo') %>
 
 <%- include('../partials/products/products', { products: products }) %>
