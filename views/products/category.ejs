@@ -1,0 +1,10 @@
+<h1><%= title %></h1>
+
+<% if (typeof products !== "undefined") { %>
+    <% products.forEach((product) => { %>        
+        <%- include('../partials/products/product', { product: product }) %>
+        <hr>
+    <% }) %>
+<% } else { %>
+    <p>Nenhum produto disponível.</p>
+<% } %>

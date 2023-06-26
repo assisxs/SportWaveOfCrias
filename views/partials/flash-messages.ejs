@@ -1,0 +1,11 @@
+<% if (flashMessages && Object.keys(flashMessages).length > 0) { %>
+    <div class="flash-messages">
+      <% for (let type in flashMessages) { %>
+        <% flashMessages[type].forEach(message => { %>
+          <div class="flash-message flash-message-<%= type %>">
+            <%= message %>
+          </div>
+        <% }); %>
+      <% } %>
+    </div>
+<% } %>

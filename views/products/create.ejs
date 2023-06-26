@@ -1,0 +1,32 @@
+<h2>Cadastrar Produto</h2>
+
+<form action="/produtos/cadastrar" method="post" enctype="multipart/form-data">
+    <label>Nome</label>
+    <input type="text" name="name">
+    <br>
+
+    <label>Preço</label>
+    <input type="text" name="price">
+    <br>
+
+    <label>Foto de Capa</label>
+    <input type="file" name="cover">
+    <br>
+    
+    <label>Esporte</label>
+    <select name="sport">
+        <option value="Beach Tennis">Beach Tennis</option>
+        <option value="Vôlei de Praia">Vôlei de Praia</option>
+        <option value="Surf">Surf</option>
+    </select>
+    <br>
+
+    <label>Categoria</label>
+    <select name="category">
+        <option value="Roupas">Roupas</option>
+        <option value="Acessórios">Acessórios</option>
+    </select>
+    <br>
+    
+    <input type="submit" value="Cadastrar">
+</form>
