@@ -11,6 +11,8 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
 const loginRouter = require('./routes/login');
+const finalizarRouter = require('./routes/finalizar');
+const descricaoRouter = require('./routes/descricao');
 
 const app = express();
 
@@ -47,6 +49,9 @@ app.use('/produtos', productsRouter);
 // });
 
 app.use('/login', loginRouter);
+app.use('/finalizar', finalizarRouter);
+app.use('/descricao', descricaoRouter);
+
 
 app.use(function (req, res, next) {
   next(createError(404));
