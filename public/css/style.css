@@ -2078,15 +2078,19 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
 }
 h4 {
   font-weight: 600;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
 }
+
 h6 #L{
   padding-right: 60px;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -2094,7 +2098,7 @@ h6 #R{
   padding-left: 60px;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: 'Poppins', sans-serif;
 }
 .section{
@@ -2218,11 +2222,11 @@ h6 #R{
   padding-left: 55px;
   height: 48px;
   width: 100%;
-  font-weight: 500;
+  font-weight: 700;
   border-radius: 4px;
   font-size: 14px;
   line-height: 22px;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   outline: none;
   color: #043b75;
   background-color: #FFFFFF;
