@@ -42,9 +42,9 @@ app.use('/', indexRouter);
 app.use('/usuarios', usersRouter);
 app.use('/produtos', productsRouter);
 
-app.get('/login', (req, res) => {
-  res.render('login', { layout: 'layouts/login-layout' });
-});
+// app.get('/login', (req, res) => {
+//   res.render('login', { layout: 'layouts/login-layout' });
+// });
 
 app.use('/login', loginRouter);
 

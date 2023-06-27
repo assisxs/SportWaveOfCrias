@@ -2,8 +2,9 @@ const express = require('express');
 const router = express.Router();
 
 
+
 router.get('/', (req, res) => {
-    res.render('login', { layout: 'login-layout' });
+    res.render('login', { layout: 'layouts/login-layout' });
   });
   
 
