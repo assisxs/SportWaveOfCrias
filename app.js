@@ -10,6 +10,7 @@ const flash = require('connect-flash');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
+const loginRouter = require('./routes/login');
 
 const app = express();
 
@@ -40,6 +41,12 @@ app.use((req, res, next) => {
 app.use('/', indexRouter);
 app.use('/usuarios', usersRouter);
 app.use('/produtos', productsRouter);
+
+app.get('/login', (req, res) => {
+  res.render('login', { layout: 'layouts/login-layout' });
+});
+
+app.use('/login', loginRouter);
 
 app.use(function (req, res, next) {
   next(createError(404));

@@ -2061,10 +2061,10 @@ h2 {
 }
 
 
-a {
+/* a {
 	cursor: pointer;
   transition: all 200ms linear;
-}
+} */
 a:hover {
 	text-decoration: none;
 }
@@ -2086,14 +2086,16 @@ h6 #L{
   padding-right: 60px;
   text-transform: uppercase;
   font-weight: 700;
-  
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 h6 #R{
   padding-left: 60px;
   text-transform: uppercase;
   font-weight: 700;
-  
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
 }
 .section{
   position: relative;
@@ -2411,14 +2413,14 @@ input {
 }
 
 .content {
-  position: fixed;
+  position: inherit;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+  padding-bottom: 2rem;
 }
-
 
 #joo{
   position: relative;
@@ -2429,4 +2431,9 @@ input {
   width: 100vw;
   margin-top: 2rem;
   height: 102px;
+}
+
+header, nav, footer {
+  position: relative;
+  z-index: 9999;
 }

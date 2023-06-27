@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Entre / Cadastre-se </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <%- include('../partials/header') %>
+
+    <%- include('../partials/nav') %>
+
+      <%- body %>
+
+
+        <%- include('../partials/footer') %>
+
+
+          <script>
+
+            document.querySelector('#reg-log').addEventListener('click', () => {
+              setTimeout(() => {
+                document.querySelector('.card-front').classList.toggle('visivel');
+                document.querySelector('.card-back').classList.toggle('visivel');
+              }, 200); // adiciona um atraso de 1 segundo (1000ms) na execução da função
+            });
+          </script>
+
+</body>
+
+</html>
