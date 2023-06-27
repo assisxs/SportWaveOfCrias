@@ -46,6 +46,9 @@ VALUES
   ('Amanda Costa', 'amanda92', 'senhadef', 'amanda.costa@example.com', 'Praça das Orquídeas, 135', '(11) 7531-4862', NOW());
 
 
+
+-- VALUES
+
 INSERT INTO `sportwavedb`.`product` (`name`, `description`, `brand`, `model`, `price`, `cover`, `featured`, `sport`, `category`)
 VALUES
  ('Mormaii Flexxxa',
@@ -54,7 +57,7 @@ VALUES
 'unisex',
  1999.00,
  'Mormaii Flexxxa.webp',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -64,7 +67,7 @@ VALUES
 'unisex',
  1799.00,
  'Mormaii Sunset Pro.webp',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -74,7 +77,7 @@ VALUES
 'unisex',
  2399.00,
  'Shark Predator.webp',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -84,7 +87,7 @@ VALUES
 'unisex',
  1998.00,
  'Kona K-doze Blue.png',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -94,19 +97,19 @@ VALUES
 'unisex',
  169.90,
  'Viseira Track&Field Holográfica.png',
-0,
+true,
 'Beach Tennis',
-'Beach Tennis'),
+'Acessórios'),
 
 ('Viseira Track&Field Translucida',
  'Raquete desenvolvida para o atleta de beach tennis, que deseja ótima Elasticidade e resistência, durante a prática Raquete Beach tennis Flexxxa conta com uma boa potência e Ótimo controle, ideal para nível avançado e profissional',
 'Mormaii', 
 'unisex',
  159.90,
- 'Viseira Track&Field Translucida',
-0,
+ 'Viseira Track&Field Translucida.webp',
+true,
 'Beach Tennis',
-'Beach Tennis'),
+'Acessórios'),
 
 ('Viseira Mormaii Tour Unissex Preto',
  'Raquete desenvolvida para o atleta de beach tennis, que deseja ótima Elasticidade e resistência, durante a prática Raquete Beach tennis Flexxxa conta com uma boa potência e Ótimo controle, ideal para nível avançado e profissional',
@@ -114,9 +117,9 @@ VALUES
 'unisex',
  49.90, 
  'Viseira Mormaii Tour Unissex Preto.webp',
-0,
+true,
 'Beach Tennis',
-'Beach Tennis'),
+'Acessórios'),
 
 ('Viseira Mormaii Roxo Vitoria Marquezini',
  'Raquete desenvolvida para o atleta de beach tennis, que deseja ótima Elasticidade e resistência, durante a prática Raquete Beach tennis Flexxxa conta com uma boa potência e Ótimo controle, ideal para nível avançado e profissional',
@@ -124,9 +127,9 @@ VALUES
 'unisex',
  49.90,
  'Viseira Mormaii Roxo Vitoria Marquezini.webp',
-0,
+true,
 'Beach Tennis',
-'Beach Tennis'),
+'Acessórios'),
 
 ('Bolinhas Beach Tennis Penalty',
  'Raquete desenvolvida para o atleta de beach tennis, que deseja ótima Elasticidade e resistência, durante a prática Raquete Beach tennis Flexxxa conta com uma boa potência e Ótimo controle, ideal para nível avançado e profissional',
@@ -134,7 +137,7 @@ VALUES
 'unisex',
  39.90,
  'Bolinhas Beach Tennis Penalty.png',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -144,7 +147,7 @@ VALUES
 'unisex',
  39.90,
  'Bolinhas Beach Tennis Sandever.png',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -154,7 +157,7 @@ VALUES
 'unisex',
  70.80,
  'Bolinhas Beach Tennis Mormaii.webp',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -164,7 +167,7 @@ VALUES
 'unisex',
  49.90,
  'Bolinhas Beach Tennis Kona.webp',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -174,7 +177,7 @@ VALUES
 'unisex',
  246.67,
  'Rede Beach Tennis 4 Faixas 8,20x0,8 Preto.webp',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -184,7 +187,7 @@ VALUES
 'unisex',
  899.99,
  'Rede Beach Tennis BTN 900 Competition.webp',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -194,7 +197,7 @@ VALUES
 'unisex',
  1234.90,
  'Rede Beach Tennis Mormaii Premium Preta e Verde.webp',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
 
@@ -204,10 +207,9 @@ VALUES
 'unisex',
 899.99,
 'Rede Beach Tennis Shark Unissex Preta/Laranja.png',
-0,
+true,
 'Beach Tennis',
 'Beach Tennis'),
-
 
 ('Meia Neoprene Realtex',
 'Raquete desenvolvida para o atleta de beach tennis, que deseja ótima Elasticidade e resistência, durante a prática Raquete Beach tennis Flexxxa conta com uma boa potência e Ótimo controle, ideal para nível avançado e profissional',
@@ -215,9 +217,9 @@ VALUES
 'unisex',
 109.99,
 'Meia Neoprene.webp',
-0,
+true,
 'Beach Tennis',
-'Beach Tennis'),
+'Acessórios'),
 
 ('Meia Neoprene Drop Shot',
 'Raquete desenvolvida para o atleta de beach tennis, que deseja ótima Elasticidade e resistência, durante a prática Raquete Beach tennis Flexxxa conta com uma boa potência e Ótimo controle, ideal para nível avançado e profissional',
@@ -225,9 +227,9 @@ VALUES
 'unisex',
 109.99,
 'Meia Neoprene Drop Shot.webp',
-0,
+true,
 'Beach Tennis',
-'Beach Tennis'),
+'Acessórios'),
 
 ('Meia Neopreme Shark',
 'Raquete desenvolvida para o atleta de beach tennis, que deseja ótima Elasticidade e resistência, durante a prática Raquete Beach tennis Flexxxa conta com uma boa potência e Ótimo controle, ideal para nível avançado e profissional',
@@ -235,9 +237,9 @@ VALUES
 'unisex',
 149.99,
 'Meia Neopreme Shark.webp',
-0,
+true,
 'Beach Tennis',
-'Beach Tennis'),
+'Acessórios'),
 
 ('Meia Neopreme Mormaii',
 'Raquete desenvolvida para o atleta de beach tennis, que deseja ótima Elasticidade e resistência, durante a prática Raquete Beach tennis Flexxxa conta com uma boa potência e Ótimo controle, ideal para nível avançado e profissional',
@@ -245,19 +247,29 @@ VALUES
 'unisex',
 89.99,
 'Meia Neopreme Mormaii.webp',
-0,
+true,
 'Beach Tennis',
-'Beach Tennis');
+'Acessórios');
 
 INSERT INTO `sportwavedb`.`product` (`name`, `description`, `brand`, `model`, `price`, `cover`, `featured`, `sport`, `category`)
 VALUES
+--  ('Raquete de Beach Tennis', 'Raquete profissional de alta qualidade', 'Wilson', 'Pro Staff 97', 299.99, 'default.png', 1, 'Beach Tennis', 'Acessórios', NOW()),
+--  ('Bola de Vôlei de Praia', 'Bola oficial para prática de vôlei de praia', 'Mikasa', 'VLS300', 49.99, 'default.png', 1, 'Vôlei de Praia', 'Acessórios', NOW()),
+--  ('Prancha de Surf', 'Prancha de surf para iniciantes', 'Rip Curl', 'E-Bomb', 599.99, 'default.png', 1, 'Surf', 'Roupas', NOW()),
+ -- ('Short de Praia', 'Short de praia estiloso e confortável', 'Billabong', 'All Day Layback', 39.99, 'default.png', 0, 'Beach Tennis', 'Roupas', NOW()),
+  -- ('Óculos de Sol', 'Óculos de sol esportivo com proteção UV', 'Oakley', 'Radar EV Path', 149.99, 'default.png', 0, 'Vôlei de Praia', 'Acessórios', NOW()),
+ -- ('Prancha de Bodyboard', 'Prancha de bodyboard profissional', 'NMD', 'Ben Player PP', 199.99, 'default.png', 1, 'Surf', 'Acessórios', NOW()),
+  -- ('Camiseta de Beach Tennis', 'Camiseta de manga curta para prática de beach tennis', 'Nike', 'Court Dry', 29.99, 'default.png', 0, 'Beach Tennis', 'Roupas', NOW()),
+  -- ('Boné de Vôlei de Praia', 'Boné esportivo para proteção solar durante o vôlei de praia', 'Adidas', 'Beach Volley Cap', 19.99, 'default.png', 0, 'Vôlei de Praia', 'Acessórios', NOW()),
+  -- ('Parafina para Prancha', 'Parafina de alta aderência para prancha de surf', 'Sticky Bumps', 'Tropical', 9.99, 'default.png', 0, 'Surf', 'Acessórios', NOW()),
+  -- ('Calça de Surf', 'Calça de neoprene para prática de surf', 'Quiksilver', 'Syncro Series', 79.99, 'default.png', 0, 'Surf', 'Roupas', NOW()),
 ('Bola de Vôlei de Praia Mikasa VXT30',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
 'Mormaii', 
 'unisex',
 229.99,
 'Bola de Vôlei de Praia Mikasa VXT30.webp',
-0,
+true,
 'Vôlei de praia',
 'Vôlei de praia'),
 
@@ -267,7 +279,7 @@ VALUES
 'unisex',
 229.99,
 'Bola de Vôlei de Praia Copaya BV100.webp',
-0,
+true,
 'Vôlei de praia',
 'Vôlei de praia'),
 
@@ -277,7 +289,7 @@ VALUES
 'unisex',
 135.99,
 'Bola de Vôlei de Praia Penalty XXI.webp',
-0,
+true,
 'Vôlei de praia',
 'Vôlei de praia'),
 
@@ -287,7 +299,7 @@ VALUES
 'unisex',
 139.99,
 'Bola de Vôlei de Praia Penalty MG 3600.webp',
-0,
+true,
 'Vôlei de praia',
 'Vôlei de praia'),
 
@@ -297,9 +309,9 @@ VALUES
 'unisex',
 449.99,
 'Óculos de Sol Mormaii Smash.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Acessórios'),
 
 ('Óculos de Vôlei de Praia BV500 Adulto',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -307,9 +319,9 @@ VALUES
 'unisex',
 199.99,
 'Óculos de Vôlei de Praia BV500 Adulto.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Acessórios'),
 
 ('Óculos de Vôlei de Praia BVSG500',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -317,9 +329,9 @@ VALUES
 'unisex',
 199.99,
 'Óculos de Vôlei de Praia BVSG500.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Acessórios'),
 
 ('Óculos de Sol Mormaii Smash Vini Font - Unissex',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -327,9 +339,9 @@ VALUES
 'unisex',
 499.99,
 'Óculos de Sol Mormaii Smash Vini Font - Unissex.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Acessórios'),
 
 ('Rede de Vôlei com Faixa Sintética Gismar Redes - 9,5m',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -337,7 +349,7 @@ VALUES
 'unisex',
 199.99,
 'Rede de Vôlei com Faixa Sintética Gismar Redes - 9,5m.webp',
-0,
+true,
 'Vôlei de praia',
 'Vôlei de praia'),
 
@@ -347,7 +359,7 @@ VALUES
 'unisex',
 149.99,
 'Rede de Vôlei Copaya BV100.webp',
-0,
+true,
 'Vôlei de praia',
 'Vôlei de praia'),
 
@@ -357,7 +369,7 @@ VALUES
 'unisex',
 39.90,
 'Rede de Vôlei recreação 5 metros - Evo Sports.png',
-0,
+true,
 'Vôlei de praia',
 'Vôlei de praia'),
 
@@ -367,7 +379,7 @@ VALUES
 'unisex',
 699.99,
 'Rede de Vôlei de Praia oficial BVN900.webp',
-0,
+true,
 'Vôlei de praia',
 'Vôlei de praia'),
 
@@ -377,9 +389,9 @@ VALUES
 'unisex',
 31.90,
 'Manguito Curto para Voleibol Muvin Arrow MGT-100.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Acessórios'),
 
 ('Manguito Kanxa Essential Sport Vôlei - Adulto',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -387,9 +399,9 @@ VALUES
 'unisex',
 41.90,
 'Manguito Kanxa Essential Sport Vôlei - Adulto.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Acessórios'),
 
 ('Manguito Lupo UV - Adulto',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -397,9 +409,9 @@ VALUES
 'unisex',
 49.99,
 'Manguito Lupo UV - Adulto.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Acessórios'),
 
 ('Manguito Fila Performance',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -407,9 +419,9 @@ VALUES
 'unisex',
 99.99,
 'Manguito Fila Performance.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Acessórios'),
 
 ('Camisa Térmica Masculina Manga Longa Adams com Proteção UPF4',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -417,9 +429,9 @@ VALUES
 'unisex',
 49.99,
 'Camisa Térmica Masculina Manga Longa Adams com Proteção UPF4.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Roupas'),
 
 ('Camisa Térmica Penalty Matís X UV50+ - Masculina',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -427,9 +439,9 @@ VALUES
 'unisex',
 59.90,
 'Camisa Térmica Penalty Matís X UV50+ - Masculina.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Roupas'),
 
 ('Camisa Térmica Segunda Pele Manga Longa Nord - Masculina',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -437,9 +449,9 @@ VALUES
 'unisex',
 69.99,
 'Camisa Térmica Segunda Pele Manga Longa Nord - Masculina.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia'),
+'Roupas'),
 
 ('Camisa Térmica Puma UV50+ Manga Longa - Masculina',
 'Evolução Da Bola Matrizada, Com Uma Camada A Mais Para Maior Maciez, Menor Absorção De Água, Design Moderno E Arrojado, Com Mais Leveza E Precisão.',
@@ -447,17 +459,19 @@ VALUES
 'unisex',
 169.99,
 'Camisa Térmica Puma UV50+ Manga Longa - Masculina.webp',
-0,
+true,
 'Vôlei de praia',
-'Vôlei de praia');
+'Roupas');
 
+INSERT INTO `sportwavedb`.`product` (`name`, `description`, `brand`, `model`, `price`, `cover`, `featured`, `sport`, `category`)
+VALUES
 ('Prancha Rip Curl Dfk Medina 6´0 (4000)',
 'O material desta prancha é semelhante aos que são revestidos os Bodyboards profissionais.',
 ' Rusty', 
 'unisex',
 3825.00,
 'Prancha Rip Curl Dfk Medina 6´0 (4000).webp',
-0,
+true,
 'Surf',
 'Surf'),
 
@@ -467,7 +481,7 @@ VALUES
 'unisex',
 3460.00,
 'Prancha Rusty Smoothie 5.10 Fcs 2 (3700).webp',
-0,
+true,
 'Surf',
 'Surf'),
 
@@ -477,7 +491,7 @@ VALUES
 'unisex',
 3460.00,
 'Prancha Rusty Smoothie 5.11 Fcs 2 (3500).jpg',
-0,
+true,
 'Surf',
 'Surf'),
 
@@ -487,7 +501,7 @@ VALUES
 'unisex',
 3459.00,
 'Prancha Al Merrick - OG Flyer- Spine Tek - 5´10 - FCSII (5900).webp',
-0,
+true,
 'Surf',
 'Surf'),
 
@@ -497,9 +511,9 @@ VALUES
 'unisex',
 197.90,
 'Lycra Manga Longa Mormaii extraline Surf Masculina (200).webp',
-0,
+true,
 'Surf',
-'Surf'),
+'Roupas'),
 
 ('Lycra Rip Curl Manga Longa Corps l/s uv Masculina Preto (324)',
 'O material desta prancha é semelhante aos que são revestidos os Bodyboards profissionais.',
@@ -507,9 +521,9 @@ VALUES
 'unisex',
 197.90,
 'Lycra Rip Curl Manga Longa Corps l/s uv Masculina Preto (324).webp',
-0,
+true,
 'Surf',
-'Surf'),
+'Roupas'),
 
 ('Camiseta De Lycra Ripcurl Sunny Rays (FEM) (200)',
 'O material desta prancha é semelhante aos que são revestidos os Bodyboards profissionais.',
@@ -517,9 +531,9 @@ VALUES
 'unisex',
 229.90,
 'Camiseta De Lycra Ripcurl Sunny Rays (FEM) (200).jpg',
-0,
+true,
 'Surf',
-'Surf'),
+'Roupas'),
 
 ('Camiseta Lycra Rip Curl Grom Corpo L/SL (INF) (140)',
 'O material desta prancha é semelhante aos que são revestidos os Bodyboards profissionais.',
@@ -527,9 +541,9 @@ VALUES
 'unisex',
 189.90,
 'Camiseta Lycra Rip Curl Grom Corpo L/SL (INF) (140).jpg',
-0,
+true,
 'Surf',
-'Surf'),
+'Roupas'),
 
 ('Bermuda Rip Curl Forecast Bs 21" SM23 Masculina - Masculino (260)',
 'O material desta prancha é semelhante aos que são revestidos os Bodyboards profissionais.',
@@ -537,9 +551,9 @@ VALUES
 'unisex',
 279.00,
 'Bermuda Rip Curl Forecast Bs 21.webp',
-0,
+true,
 'Surf',
-'Surf'),
+'Roupas'),
 
 ('Bermuda Masculina Rip Curl React (169)',
 'O material desta prancha é semelhante aos que são revestidos os Bodyboards profissionais.',
@@ -547,9 +561,9 @@ VALUES
 'unisex',
 258.90,
 'Bermuda Masculina Rip Curl React (169).jpg',
-0,
+true,
 'Surf',
-'Surf'),
+'Roupas'),
 
 ('Bermuda Rip Curl Medina Black (299)',
 'O material desta prancha é semelhante aos que são revestidos os Bodyboards profissionais.',
@@ -557,9 +571,9 @@ VALUES
 'unisex',
 229.00,
 'Bermuda Rip Curl Medina Black (299).webp',
-0,
+true,
 'Surf',
-'Surf'),
+'Roupas'),
 
 ('Bermuda Billabong Sundays Pro Multi (229)',
 'O material desta prancha é semelhante aos que são revestidos os Bodyboards profissionais.',
@@ -567,9 +581,9 @@ VALUES
 'unisex',
 229.90,
 'Bermuda Billabong Sundays Pro Multi (229).webp',
-0,
+true,
 'Surf',
-'Surf'),
+'Roupas'),
 
 ('Deck Prancha Surf Rip Curl DT3 Marble - 3 Peças- Preto (230)',
 'O material desta prancha é semelhante aos que são revestidos os Bodyboards profissionais.',
@@ -577,7 +591,7 @@ VALUES
 'unisex',
 229.90,
 'Deck Prancha Surf Rip Curl DT3 Marble - 3 Peças- Preto (230).webp',
-0,
+true,
 'Surf',
 'Surf'),
 
@@ -587,7 +601,7 @@ VALUES
 'unisex',
 229.90,
 'Deck Rip Curl - DT 2 - Vermelho e Preto (150).avif',
-0,
+true,
 'Surf',
 'Surf'),
 
@@ -597,7 +611,7 @@ VALUES
 'unisex',
 159.90,
 'Deck Antiderrapante Rip Curl DT3 90 - Preto (159).png',
-0,
+true,
 'Surf',
 'Surf'),
 
@@ -607,7 +621,7 @@ VALUES
 'unisex',
 159.90,
 'Deck de Surf Mormaii Cacimba - Unissex - Preto (199).webp',
-0,
+true,
 'Surf',
 'Surf');
 
