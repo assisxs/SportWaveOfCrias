@@ -1,5 +1,5 @@
 <div class="product-item">
-    <a href="/descricao"><img src="/<%= product.cover %>" width="200"> </a>
+    <a href="/descricao/<%= product.id %>"><img src="/<%= product.cover %>" width="200"> </a>
     <h3><%= product.name %></h3>
     <p>R$ <%= product.price.replace('.',',') %></p>
     <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
