@@ -14,7 +14,8 @@ const sports = {
   "beach-tennis": "Beach Tennis",
 };
 
-router.get("/", async (req, res) => {
+router.get("/", async (req, res, next) => {
+  console.log(req.session);
   try {
     const sql = `SELECT * FROM product WHERE featured = 1 ORDER BY createdAt DESC LIMIT 10;`;
     const [rows] = await pool.query(sql);

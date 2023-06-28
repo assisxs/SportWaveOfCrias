@@ -1,5 +1,3 @@
-
-
 <!-- 	
 	<a href="../index.html" id="joo"><img src="../assets/img/logo-sportwave.png" alt="d"></a> -->
 	
@@ -22,15 +20,19 @@
 									<div class="center-wrap">
 										<div class="section text-center">
 											<h4 class="mb-4 pb-3">Entrar</h4>
-											<div class="form-group">
-												<input type="email" name="logemail" class="form-style" placeholder="Seu Email" id="logemail" autocomplete="off">
-												<i class="input-icon uil uil-at"></i>
-											</div>	
-											<div class="form-group mt-2">
-												<input type="password" name="logpass" class="form-style" placeholder="Sua Senha" id="logpass" autocomplete="off">
-												<i class="input-icon uil uil-lock-alt"></i>
-											</div>
-											<a href="#" class="btn mt-4">Enviar</a>
+
+											<form action="/login" method="post" class=" formL">
+												<div class="form-group">
+													<input type="email" name="logemail" class="form-style"  placeholder="Seu Email" id="logemail" autocomplete="off">
+													<i class="input-icon uil uil-at"></i>
+												</div>	
+												<div class="form-group mt-2">
+													<input type="password" name="logpass" class="form-style" placeholder="Sua Senha" id="logpass" autocomplete="off">
+													<i class="input-icon uil uil-lock-alt"></i>
+												</div>
+												<button class="btn mt-4" type="submit">Enviar</button>
+											</form>
+											
                             				<p class="mb-0 mt-4 text-center"><a href="#0" class="link">Esqueceu sua senha?</a></p>
 				      					</div>
 			      					</div>
@@ -39,19 +41,25 @@
 									<div class="center-wrap">
 										<div class="section text-center">
 											<h4 class="mb-4 pb-3">Cadastrar-se</h4>
-											<div class="form-group">
-												<input type="text" name="logname" class="form-style" placeholder="Seu Nome Completo" id="logname" autocomplete="off">
-												<i class="input-icon uil uil-user"></i>
-											</div>	
-											<div class="form-group mt-2">
-												<input type="email" name="logemail" class="form-style" placeholder="Seu Email" id="logemail" autocomplete="off">
-												<i class="input-icon uil uil-at"></i>
-											</div>	
-											<div class="form-group mt-2">
-												<input type="password" name="logpass" class="form-style" placeholder="Sua Senha" id="logpass" autocomplete="off">
-												<i class="input-icon uil uil-lock-alt"></i>
-											</div>
-											<a href="#" class="btn mt-4">Enviar</a>
+											
+											<form action="/cadastrar" method="post" class="formS">
+
+												<div class="form-group">
+													<input type="text" name="logname" class="form-style" placeholder="Seu Nome Completo" id="logname" autocomplete="off">
+													<i class="input-icon uil uil-user"></i>
+												</div>	
+												<div class="form-group mt-2">
+													<input type="email" name="logemail" class="form-style" placeholder="Seu Email" id="logemail" autocomplete="off">
+													<i class="input-icon uil uil-at"></i>
+												</div>	
+												<div class="form-group mt-2">
+													<input type="password" name="logpass" class="form-style" placeholder="Sua Senha" id="logpass" autocomplete="off">
+													<i class="input-icon uil uil-lock-alt"></i>
+												</div>
+												<button class="btn mt-4" type="submit">Enviar</button>
+
+											</form>
+											
 				      					</div>
 			      					</div>
 			      				</div>
@@ -75,5 +83,3 @@
         }, 200); // adiciona um atraso de 1 segundo (1000ms) na execução da função
 	});
 </script> -->
-  
-

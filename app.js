@@ -8,6 +8,7 @@ const session = require('express-session');
 const flash = require('connect-flash');
 
 const indexRouter = require('./routes/index');
+const authRouter = require('./routes/auth');
 const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
 const loginRouter = require('./routes/login');
@@ -34,13 +35,23 @@ app.use(session({
   saveUninitialized: false
 }));
 
+app.use((req, res, next)=>{
+  if(req.session.user){
+    res.locals.user = req.session.user;
+  }
+  next();
+})
+
 app.use(flash());
 app.use((req, res, next) => {
   res.locals.flashMessages = req.flash();
   next();
 });
 
+
+
 app.use('/', indexRouter);
+app.use('/', authRouter);
 app.use('/usuarios', usersRouter);
 app.use('/produtos', productsRouter);
 
