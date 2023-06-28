@@ -5,7 +5,7 @@
 
                 <!-- foto principal do produto -->
                 <div class="select-image">
-                    <img src="/img/volei-penalty.jpg">
+                    <img src="/img/imgg/<%= product.cover %>">
                 </div>
             </div>
         </div>
@@ -14,7 +14,7 @@
 
             <!-- nome do produto -->
             <div class="nome-produto">
-                <h1 id="nome-produto">Bola de Vôlei Penalty 6.0</h1>
+                <h1 id="nome-produto"><%= product.name %></h1>
             </div>
 
             <!-- avaliações - estrelas -->
@@ -49,12 +49,12 @@
             <!-- desconto do produto -->
             <div class="desconto">
 
-                <h4 id="desconto"><s>R$399,99</s></h4>
+                <h4 id="desconto"><s>R$ 2999,99</s></h4>
             </div>
 
             <!-- preço do produto -->
             <div class="valor-produto">
-                <span id="valor-produto">R$ 299,99</span>
+                <span id="valor-produto"><%= product.price %></span>
             </div>
 
             <!-- parcelamento -->
@@ -72,9 +72,7 @@
             <!-- descrição -->
             <div class="descricao">
                 <h2 id="descricao">Descrição</h2>
-                <p id="descricaoP">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    galley of type and scrambled it to make a type specimen book.</p>
+                <p id="descricaoP"><%= product.description %></p>
             </div>
         </div>
     </div>
