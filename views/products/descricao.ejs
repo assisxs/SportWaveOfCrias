@@ -54,7 +54,7 @@
 
             <!-- preço do produto -->
             <div class="valor-produto">
-                <span id="valor-produto"><%= product.price %></span>
+                <span id="valor-produto">R$ <%= product.price.replace(".",",") %></span>
             </div>
 
             <!-- parcelamento -->
